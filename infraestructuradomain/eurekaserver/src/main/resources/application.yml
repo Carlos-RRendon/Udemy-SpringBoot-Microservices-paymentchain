@@ -1,0 +1,22 @@
+server:
+  port: 9100
+
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: localhost
+  service-url:
+    defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+spring:
+  application:
+    name: eureka-server
+
+
+  server:
+    renewal-percent-threshold: 0.85
+    max-threads-for-peer-replication: 0

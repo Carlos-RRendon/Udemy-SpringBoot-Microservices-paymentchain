@@ -1,0 +1,17 @@
+server:
+  port: 9101
+
+spring:
+  application:
+    name: admin-server
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      startup: ${random.int}
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:9100/eureka}

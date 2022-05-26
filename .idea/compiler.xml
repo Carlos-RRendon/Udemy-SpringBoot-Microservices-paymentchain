@@ -7,9 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="transactions" />
-        <module name="productos" />
-        <module name="customer" />
+        <module name="eurekaserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="billing" options="-parameters" />
       <module name="customer" options="" />
+      <module name="eurekaserver" options="" />
       <module name="productos" options="" />
       <module name="transactions" options="" />
     </option>

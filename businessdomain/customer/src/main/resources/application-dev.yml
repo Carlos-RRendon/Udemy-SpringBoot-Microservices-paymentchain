@@ -1,0 +1,19 @@
+server:
+  port: 9001
+  servlet:
+    context-path: /api/v1
+
+springdoc:
+  api-docs:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://localhost:9100/eureka}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

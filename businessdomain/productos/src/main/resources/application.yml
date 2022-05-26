@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: businessdomain-product
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger/index.html
+
