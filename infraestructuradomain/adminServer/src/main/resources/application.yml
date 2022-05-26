@@ -15,3 +15,12 @@ eureka:
     registry-fetch-interval-seconds: 5
     service-url:
       defaultZone: ${EUREKA_SERVER:http://localhost:9100/eureka}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
