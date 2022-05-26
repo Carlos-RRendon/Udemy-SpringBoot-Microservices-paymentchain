@@ -6,14 +6,5 @@ server:
 springdoc:
   api-docs:
     enabled: true
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVER:http://localhost:9100/eureka}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+  swagger-ui:
+    path: /swagger/index.html
