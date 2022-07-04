@@ -10,7 +10,6 @@
 	</parent>
 
 	<artifactId>transactions</artifactId>
-	<packaging>pom</packaging>
 	<name>transactions</name>
 	<description>Microservices that will management all transactions</description>
 

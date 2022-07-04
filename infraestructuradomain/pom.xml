@@ -10,11 +10,12 @@
 
     <groupId>com.paymentchain.infraestructuradomain</groupId>
     <artifactId>infraestructuradomain</artifactId>
-    <packaging>pom</packaging>
     
     <modules>
         <module>eurekaserver</module>
         <module>adminServer</module>
+        <module>configServer</module>
+        <module>configServer</module>
     </modules>
     
     <properties>

@@ -10,7 +10,6 @@
 	</parent>
 
 	<artifactId>productos</artifactId>
-	<packaging>pom</packaging>
 	<name>productos</name>
 	<description>Demo project for Spring Boot</description>
 

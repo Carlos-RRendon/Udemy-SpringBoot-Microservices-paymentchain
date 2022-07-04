@@ -8,6 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
+        <module name="adminserver" />
+        <module name="infraestructuradomain" />
+        <module name="configserver" />
+        <module name="transactions" />
+        <module name="businessdomain" />
+        <module name="productos" />
+        <module name="customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

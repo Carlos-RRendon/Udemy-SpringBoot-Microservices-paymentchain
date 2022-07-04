@@ -1,0 +1,23 @@
+server:
+  port: 9102
+
+spring:
+  application:
+    name: config-server
+    cloud:
+      config:
+        server:
+          git:
+            uri: C:/Users/Lenovo/Documents/Cursos/Udemy/paymentchainparent/config-server-repo
+            clone-on-start: true
+      security:
+        user:
+          name: admin
+          password: prueba1@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:9100/eureka}
+
+

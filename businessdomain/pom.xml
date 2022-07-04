@@ -10,7 +10,6 @@
 
     <groupId>com.paymentchain.businessdomain</groupId>
     <artifactId>businessdomain</artifactId>
-    <packaging>pom</packaging>
 
     <modules>
         
